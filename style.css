@@ -27,11 +27,14 @@
 .text-element h1 {
   font-size: 80px;
   color: #272727;
+  font-weight: 800;
+  max-width: 700px;
 }
 .text-element p {
   font-size: 18px;
   margin: 32px 0;
   color: #27272799;
+  max-width: 700px;
 }
 /* designing the primary button */
 .btn-primary {
@@ -88,11 +91,21 @@
 .img-bg {
   width: 427px;
   height: 484px;
-  background-color: #a7216226;
   display: flex;
   align-items: end;
   justify-content: center;
   border-radius: 50% 50% 0 0;
+}
+
+/* using different color in the feature img bg */
+#img-bg-1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+#img-bg-2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+#img-bg-3 {
+  background-color: rgba(71, 125, 17, 0.15);
 }
 /* using id to control img size */
 #feature-img-1 {
