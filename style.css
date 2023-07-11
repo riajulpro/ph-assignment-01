@@ -1,0 +1,226 @@
+/* adding google font "Lato" for the webpage fonts style */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/* using universal code for all of the tags */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* css code for designing header */
+.header {
+  background-color: #e554731a;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 80px 120px 0;
+}
+.header-container img {
+  height: 640px;
+  width: 508px;
+}
+.text-element h1 {
+  font-size: 80px;
+  color: #272727;
+}
+.text-element p {
+  font-size: 18px;
+  margin: 32px 0;
+  color: #27272799;
+}
+/* designing the primary button */
+.btn-primary {
+  background-color: #e55473;
+  color: #ffffff;
+  padding: 20px 43px;
+  border: 1px solid #e55473;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #e55473;
+  color: #333;
+  cursor: pointer;
+}
+
+/* feature section's css */
+.feature {
+  margin: 130px 120px 0;
+}
+.title-and-description {
+  text-align: center;
+}
+.title-and-description h1 {
+  font-size: 40px;
+  color: #272727;
+}
+.title-and-description p {
+  font-size: 18px;
+  color: #27272799;
+  margin: 24px auto 0 auto;
+  max-width: 500px;
+}
+/* feature container css */
+.feature-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: end;
+  margin-top: 48px;
+}
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.feature-item h3 {
+  font-size: 24px;
+  color: #272727;
+  text-decoration: underline;
+}
+.img-bg {
+  width: 427px;
+  height: 484px;
+  background-color: #a7216226;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 50% 50% 0 0;
+}
+/* using id to control img size */
+#feature-img-1 {
+  height: 376px;
+  width: 272px;
+}
+
+/* css for service criteria section */
+.services {
+  margin: 130px 120px;
+  background-color: #2727270d;
+  border-radius: 5px;
+  padding: 80px 120px;
+}
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.service-criteria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.service-criteria h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* hot deal section css */
+.hot-deal {
+  background-color: #2727270d;
+  padding: 100px 300px;
+}
+.deal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.deal-element {
+  text-align: center;
+}
+.deal-element p {
+  margin: 24px 0;
+  max-width: 600px;
+  color: #27272799;
+}
+.red {
+  color: #e55473;
+}
+
+/* css for instagram container */
+.instagram {
+  margin: 130px 120px;
+}
+.instagram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 48px;
+}
+
+/* css for subscription area */
+.subscription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscription-container {
+  height: 449px;
+  width: 1400px;
+  border-radius: 6px;
+  background-image: url("assets/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* put the child element into center */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.subscription-form-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.subscription-form input {
+  width: 650px;
+  height: 64px;
+  padding: 0 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+/* footer section css */
+.footer {
+  margin-top: 130px;
+  background-color: #111010;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-direction: column;
+  padding: 130px 120px;
+}
+.footer-container h1 {
+  color: #ffffff;
+  font-size: 48px;
+}
+.footer-container p {
+  color: #ffffffe5;
+  font-size: 18px;
+  max-width: 500px;
+  text-align: center;
+}
+.footer-container h5 {
+  color: #ffffff66;
+  font-size: 16px;
+  font-weight: 400;
+}
